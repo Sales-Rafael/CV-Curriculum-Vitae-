@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    margin: 0%;
+}
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:visited:hover{
+    color: gray;
+    text-decoration: underline red;
+}
+a:visited{
+    color: black;
+}
+header{
+    background-color: lightgray;
+    padding-bottom: 3rem;
+ 
+}
+.foto_perfil{
+    border-radius: 20px;
+}
+#Cabeçalho{
+    width: 90%;
+    padding-top: 5%;
+    padding-left:5%;
+    display: flex;
+    justify-content: baseline;
+    gap: 2%;
+}
+#Cabeçalho a{
+    text-decoration:underline;
+
+}
+#Cabeçalho a:hover{
+    text-decoration:double;
+    color:red;
+    
+}
+header img{
+    height: 20rem;
+    width: auto;
+}
+#Educação, #Habilidades-Técnicas, #Experiência, #Certificações{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#Habilidades-Técnicas, #Experiência, #Certificações{
+    width: 100%;
+}
+#Habilidades-Técnicas ul, #Experiência p, #Certificações p{
+    width: 80%;
+    padding-left: 10%;
+}
+#Educação-interior{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.separar_foto_de_texto{
+    display: flex;
+    flex-direction: row;
+}
+
+.text_edu{
+    text-align: left;
+}
+.text_edu h3{
+    padding-top: 5rem;
+}
+.text_edu p, .text_edu h3{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#Habilidades-Técnicas ul{
+    text-align: left;
+}
+
+#Contato{
+    text-align: center;
+}
+#Contato div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-bottom: 2%;
+}
+
+#Certificações, #Habilidades-Técnicas{
+    background-color: lightgray;
+}
